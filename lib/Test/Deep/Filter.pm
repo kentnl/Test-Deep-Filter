@@ -4,7 +4,7 @@ use warnings;
 
 package Test::Deep::Filter;
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 # ABSTRACT: Perform a filter on a matched element before doing sub-matching
 
