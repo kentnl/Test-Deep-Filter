@@ -19,13 +19,15 @@ my %WriteMakefileArgs = (
   "NAME" => "Test::Deep::Filter",
   "PREREQ_PM" => {
     "Exporter" => 0,
+    "Test::Deep" => 0,
+    "Test::Deep::Cmp" => 0,
+    "parent" => 0,
     "strict" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
-    "Test::Deep" => 0,
     "Test::More" => "0.89",
     "Test::Tester" => "0.08"
   },
@@ -41,8 +43,10 @@ my %FallbackPrereqs = (
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "Test::Deep" => 0,
+  "Test::Deep::Cmp" => 0,
   "Test::More" => "0.89",
   "Test::Tester" => "0.08",
+  "parent" => 0,
   "strict" => 0,
   "warnings" => 0
 );
