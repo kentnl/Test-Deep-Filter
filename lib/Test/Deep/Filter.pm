@@ -19,6 +19,8 @@ sub filter {
   return undef;                  ## no critic (ProhibitExplicitReturnUndef)
 }
 
+1;
+
 =head1 DESCRIPTION
 
 This module exists so that one can apply some kind of transform of the content
@@ -65,5 +67,3 @@ exception with "die", and the nested C<$expected> will be assumed to be false.
 The "die" message will be used as a diagnostic for why the match failed.
 
 =cut
-
-1;
