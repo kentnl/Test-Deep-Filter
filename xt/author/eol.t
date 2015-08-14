@@ -8,6 +8,8 @@ use Test::EOL;
 
 my @files = (
     'lib/Test/Deep/Filter.pm',
+    'lib/Test/Deep/Filter/Object.pm',
+    't/00-compile/lib_Test_Deep_Filter_Object_pm.t',
     't/00-compile/lib_Test_Deep_Filter_pm.t',
     't/00-report-prereqs.dd',
     't/00-report-prereqs.t',

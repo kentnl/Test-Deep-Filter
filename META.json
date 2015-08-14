@@ -95,6 +95,9 @@
       "runtime" : {
          "requires" : {
             "Exporter" : "0",
+            "Test::Deep" : "0",
+            "Test::Deep::Cmp" : "0",
+            "parent" : "0",
             "perl" : "5.006",
             "strict" : "0",
             "warnings" : "0"
@@ -109,7 +112,6 @@
          "requires" : {
             "ExtUtils::MakeMaker" : "0",
             "File::Spec" : "0",
-            "Test::Deep" : "0",
             "Test::More" : "0.89",
             "Test::Tester" : "0.08",
             "perl" : "5.006"
@@ -119,6 +121,10 @@
    "provides" : {
       "Test::Deep::Filter" : {
          "file" : "lib/Test/Deep/Filter.pm",
+         "version" : "0.001000"
+      },
+      "Test::Deep::Filter::Object" : {
+         "file" : "lib/Test/Deep/Filter/Object.pm",
          "version" : "0.001000"
       }
    },
@@ -342,7 +348,8 @@
             "config" : {
                "Dist::Zilla::Plugin::Test::Compile::PerFile" : {
                   "file" : [
-                     "lib/Test/Deep/Filter.pm"
+                     "lib/Test/Deep/Filter.pm",
+                     "lib/Test/Deep/Filter/Object.pm"
                   ],
                   "path_translator" : "base64_filter",
                   "prefix" : "t/00-compile",

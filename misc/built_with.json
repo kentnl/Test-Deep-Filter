@@ -1,4 +1,7 @@
 {
+   "failures" : {
+      "Test::Deep::Cmp" : "Module::MetaData could not parse a version from /home/kent/perl5/perlbrew/perls/5.22.0/lib/site_perl/5.22.0/Test/Deep/Cmp.pm"
+   },
    "modules" : {
       "CPAN::Meta" : "2.150005",
       "Dist::Zilla" : "5.037",
@@ -66,6 +69,7 @@
       "Test::Pod" : "1.50",
       "Test::Pod::Coverage" : "1.10",
       "Test::Tester" : "0.114",
+      "parent" : "0.234",
       "strict" : "1.09",
       "warnings" : "1.32"
    },

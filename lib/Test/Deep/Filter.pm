@@ -16,7 +16,9 @@ require Exporter;
 our @EXPORT_OK = ('filter');
 
 sub filter {
-  return undef;                  ## no critic (ProhibitExplicitReturnUndef)
+  my ( $code, $expected ) = @_;
+  require Test::Deep::Filter::Object;
+  return Test::Deep::Filter::Object->new( $code, $expected );
 }
 
 1;
