@@ -8,7 +8,7 @@ package Test::Deep::Filter::Object;
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 use parent 'Test::Deep::Cmp';
 
@@ -87,7 +87,7 @@ Test::Deep::Filter::Object - Internal plumbing for Test::Deep::Filter
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 METHODS
 
