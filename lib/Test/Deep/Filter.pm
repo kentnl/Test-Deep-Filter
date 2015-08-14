@@ -1,4 +1,4 @@
-use 5.006;  # our
+use 5.006;    # our
 use strict;
 use warnings;
 
@@ -9,6 +9,15 @@ our $VERSION = '0.001000';
 # ABSTRACT: Perform a filter on a matched element before doing sub-matching
 
 # AUTHORITY
+
+require Exporter;
+*import = \&Exporter::import;    ## no critic (ProhibitCallsToUnexportedSubs)
+
+our @EXPORT_OK = ('filter');
+
+sub filter {
+  return undef;                  ## no critic (ProhibitExplicitReturnUndef)
+}
 
 =head1 DESCRIPTION
 
