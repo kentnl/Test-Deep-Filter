@@ -13,7 +13,8 @@ my @files = (
     't/00-compile/lib_Test_Deep_Filter_pm.t',
     't/00-report-prereqs.dd',
     't/00-report-prereqs.t',
-    't/01-basic.t'
+    't/01-basic.t',
+    't/02-unhandled.t'
 );
 
 eol_unix_ok($_, { trailing_whitespace => 1 }) foreach @files;
