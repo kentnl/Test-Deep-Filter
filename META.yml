@@ -33,4 +33,8 @@ requires:
   perl: '5.006'
   strict: '0'
   warnings: '0'
+resources:
+  bugtracker: https://github.com/kentnl/Test-Deep-Filter/issues
+  homepage: https://github.com/kentnl/Test-Deep-Filter
+  repository: https://github.com/kentnl/Test-Deep-Filter.git
 version: '0.001000'
