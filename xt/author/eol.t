@@ -15,7 +15,8 @@ my @files = (
     't/00-report-prereqs.t',
     't/01-basic.t',
     't/02-unhandled.t',
-    't/03-child-matches.t'
+    't/03-child-matches.t',
+    't/04-sub-matches.t'
 );
 
 eol_unix_ok($_, { trailing_whitespace => 1 }) foreach @files;

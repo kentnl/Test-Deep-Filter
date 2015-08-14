@@ -30,6 +30,7 @@ t/00-report-prereqs.t
 t/01-basic.t
 t/02-unhandled.t
 t/03-child-matches.t
+t/04-sub-matches.t
 weaver.ini
 xt/author/critic.t
 xt/author/eol.t
