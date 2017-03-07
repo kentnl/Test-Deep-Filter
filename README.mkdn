@@ -4,7 +4,7 @@ Test::Deep::Filter - Perform a filter on a matched element before doing sub-matc
 
 # VERSION
 
-version 0.001001
+version 0.001002
 
 # DESCRIPTION
 
