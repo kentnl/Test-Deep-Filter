@@ -1,6 +1,8 @@
 Release history for Test-Deep-Filter
 
 {{$NEXT}}
+
+0.001001 2017-03-07T10:57:32Z b387f9f
  - Bugfix: Avoid test failures under -Ddefault_inc_excludes_dot
 
  [Dependencies::Stats]

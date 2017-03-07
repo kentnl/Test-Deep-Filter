@@ -8,7 +8,7 @@ package Test::Deep::Filter::Object;
 
 # AUTHORITY
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 use parent 'Test::Deep::Cmp';
 
