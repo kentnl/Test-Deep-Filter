@@ -4,7 +4,7 @@ use warnings;
 
 package Test::Deep::Filter;
 
-our $VERSION = '0.001001';
+our $VERSION = '0.001002';
 
 # ABSTRACT: Perform a filter on a matched element before doing sub-matching
 
@@ -35,7 +35,7 @@ Test::Deep::Filter - Perform a filter on a matched element before doing sub-matc
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 DESCRIPTION
 
